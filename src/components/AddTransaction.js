@@ -38,6 +38,7 @@ export const AddTransaction = () => {
           </label>
           <input
             type="number"
+            step="any"
             value={amount}
             onChange={e => setAmount(e.target.value)}
             placeholder="Enter amount..."
